@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+
+
+
+    <item
+        android:id="@+id/b0"
+        android:icon="@drawable/ic_c1"
+        android:orderInCategory="100"
+        android:title="menu"
+        app:showAsAction="ifRoom">
+        <menu>
+
+            <item
+                android:id="@+id/b7"
+
+                android:orderInCategory="100"
+                android:title="Contact Me"
+                app:showAsAction="never" >
+
+<menu>
+
+
+
+            <item
+                android:id="@+id/b2"
+                android:orderInCategory="100"
+                android:title="Email Id"
+                app:showAsAction="never">
+                <menu>
+
+                    <item
+                        android:id="@+id/b5"
+
+                        android:orderInCategory="100"
+                        android:title="ankit.kr@iiitg.ac.in"
+                        app:showAsAction="never" />
+
+                    <item
+                        android:id="@+id/b6"
+
+                        android:orderInCategory="100"
+                        android:title="ankitnobi2000@gmail.com"
+                        app:showAsAction="never" />
+
+
+                </menu>
+
+
+</item>
+</menu>
+            </item>
+
+
+
+        </menu>
+    </item>
+</menu>

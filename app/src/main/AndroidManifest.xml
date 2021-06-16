@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sjk.covhelp3">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon3"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon3"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="stateHidden">
+        <activity android:name=".activity5"></activity>
+        <activity android:name=".activity4" />
+        <activity android:name=".activity3" />
+        <activity android:name=".activity2" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".splashactivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ListItem" />
+        <activity android:name=".ItemDetails" />
+        <activity android:name=".ListItem2" />
+        <activity android:name=".ListItem3" />
+        <activity android:name=".ListItem4" />
+        <activity android:name=".ListItem5" />
+        <activity android:name=".ItemDetails2" />
+        <activity android:name=".ItemDetails3" />
+        <activity android:name=".ItemDetails4" />
+        <activity android:name=".ItemDetails5" />
+        <activity android:name=".ListItem6"/>
+        <activity android:name=".ItemDetails6"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".MainActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btn_list_items"
+            android:layout_width="135dp"
+            android:layout_height="80dp"
+
+
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="60dp"
+            android:background="#FFFFFF"
+
+
+            android:foreground="@drawable/hb3"
+
+            android:text="Track Hospital Beds"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_list_items2"
+            android:layout_width="135dp"
+            android:layout_height="80dp"
+
+            android:layout_marginTop="60dp"
+
+
+            android:layout_marginEnd="20dp"
+            android:foreground="@drawable/vc1"
+
+
+            android:text="Vaccination Center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_list_items3"
+            android:layout_width="135dp"
+            android:layout_height="80dp"
+
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="160dp"
+            android:foreground="@drawable/r1"
+            android:text="Remdesivir"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_list_items4"
+            android:layout_width="135dp"
+            android:layout_height="80dp"
+
+
+            android:layout_marginTop="160dp"
+            android:layout_marginEnd="20dp"
+
+            android:foreground="@drawable/t1"
+
+            android:text="Tocilizumab"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_list_items5"
+            android:layout_width="135dp"
+            android:layout_height="80dp"
+
+
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="260dp"
+
+            android:foreground="@drawable/b1"
+            android:text="Blood Bank"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_list_items6"
+            android:layout_width="135dp"
+            android:layout_height="80dp"
+
+
+            android:layout_marginTop="260dp"
+            android:layout_marginEnd="20dp"
+
+            android:foreground="@drawable/o1"
+
+            android:text="Oxygen Cylinder"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_list_items7"
+            android:layout_width="135dp"
+            android:layout_height="80dp"
+
+
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="360dp"
+
+            android:foreground="@drawable/bs2"
+            android:text="Blood Stock"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_list_items8"
+            android:layout_width="135dp"
+            android:layout_height="80dp"
+
+
+            android:layout_marginTop="360dp"
+            android:layout_marginEnd="20dp"
+
+            android:foreground="@drawable/f1"
+
+            android:text="Feedback"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_list_items9"
+        android:layout_width="135dp"
+        android:layout_height="80dp"
+
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="460dp"
+
+
+        android:background="#D8813A"
+        android:foreground="@drawable/fh1"
+        android:text="Find Help"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_list_items10"
+        android:layout_width="135dp"
+        android:layout_height="80dp"
+
+
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="20dp"
+
+
+        android:background="#EF5C5C"
+        android:foreground="@drawable/gh1"
+        android:text="Go Help"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout></ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
