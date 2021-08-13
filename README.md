@@ -2,7 +2,7 @@
 
 App Link 1 : https://apkpure.com/p/com.sjk.covhelp3 
 
-App Link 2 : https://www.getjar.com/.../health.../medicine/CovMate-986468
+App Link 2 : https://www.getjar.com/categories/health-apps/medicine/CovMate-986468
 
 CovMate is a healthcare app that provides a Covid-19 HelpCenter (Resources & Helpline Information) for Bihar state (India).
 Features :
